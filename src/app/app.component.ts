@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// tslint:disable-next-line:import-spacing
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'LearAngular';
+  name = 'Zaid';
 }
