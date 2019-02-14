@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'LearAngular';
-  name = 'Zaid';
+  name = 'Zaid Bin Saeed';
 }
