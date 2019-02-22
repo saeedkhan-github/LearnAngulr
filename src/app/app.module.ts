@@ -4,11 +4,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HeroesComponent } from './heroes/heroes.component';
+import { NgformComponent } from './ngform/ngform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    NgformComponent
   ],
   imports: [
     BrowserModule,
@@ -16,6 +18,6 @@ import { HeroesComponent } from './heroes/heroes.component';
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent, HeroesComponent]
+  bootstrap: [AppComponent, HeroesComponent,NgformComponent]
 })
 export class AppModule { }
